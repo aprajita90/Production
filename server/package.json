@@ -1,11 +1,24 @@
 {
-  "name": "test",
-  "version": "1.0.0",
+  "name": "Production",
+  "version": "7.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "engines":{
+    "node": "0.12.7",
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://"
+  },
+  "keywords":[
+    "node",
+    "heroku",
+    "express"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
